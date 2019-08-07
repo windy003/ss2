@@ -43,8 +43,8 @@ sed -i   '19s/.$//'    ss.json
 cp     ss.json    /etc/ss.json
 
 
-#运行ssserver,显示数列
-setsid   ssserver    -c    /etc/ss.json
+
+#显示配置
 cat    /etc/ss.json
 
 
@@ -52,3 +52,12 @@ cat    /etc/ss.json
 
 #删除tmp.txt
 rm    tmp.txt
+
+
+
+#运行ssserver,显示数列
+setsid   ssserver    -c    /etc/ss.json
+
+
+
+
