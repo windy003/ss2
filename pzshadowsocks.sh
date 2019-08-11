@@ -1,4 +1,6 @@
 #安装ss
+apt  update
+apt  upgrade
 apt   install     shadowsocks
 
 
