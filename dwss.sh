@@ -4,7 +4,7 @@ apt   install     shadowsocks    -y
 
 
 #添加cron服务
-echo   'setsid     ssserver   -c  /etc/ss.json'  >>      /var/spool/cron/crontabs/root
+echo   '@reboot   setsid     ssserver   -c  /etc/ss.json'  >>      /var/spool/cron/crontabs/root
 
 
 
