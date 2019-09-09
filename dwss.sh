@@ -20,17 +20,6 @@ do
 sed  -i   '8 r tmp.txt' ./ss.json
 
 
-#找到timeout所在的行,并赋值给var2,
-#然后减2赋值给var3
-var=`grep  -n timeout  ss.json`
-
-var2=${var:0:2}
-echo    ${var2}
-
-
-var3=$((var2-2))
-echo    ${var3}
-
 
 
 
