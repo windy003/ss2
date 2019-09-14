@@ -49,5 +49,5 @@ rm    tmp.txt
 setsid   ssserver    -c    /etc/ss.json
 
 
-
-
+#安装bbr
+./bbr.sh
