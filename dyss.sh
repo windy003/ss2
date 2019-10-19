@@ -50,4 +50,5 @@ setsid   ssserver    -c    /etc/ss.json
 
 
 #安装bbr
+chmod   +x bbr.sh
 ./bbr.sh
